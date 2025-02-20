@@ -60,9 +60,10 @@ void pattern6(int n){
     for(int i=1; i<=n; i++){
         for(int j=1; j<=(n-i+1);j++){
             cout << j;
-        }
+            
         cout << endl;
     }
+}
 }
 
 void pattern7(int n){
@@ -257,12 +258,12 @@ void pattern21(int n){
 void pattern22(int n) {
     for(int i=0; i<(2*n - 1); i++){
         for(int j=0; j<(2*n - 1); j++){
-            int top = i;
-            int left = j;
+            int row = i;
+            int col = j;
+            int left = (n*2 -2) - i;
             int right = (n*2 -2) - j;
-            int bottom = (n*2 -2) - i;
-            int m1 = min(top,bottom);
-            int m2 = min(left,right);
+            int m1 = min(row,left);
+            int m2 = min(col,right);
             cout << (n - min(m1,m2));
         }
         cout << endl;
