@@ -11,10 +11,10 @@
 - Find the median of the given array ✅
 - Remove duplicates from a sorted array ✅
 - Remove duplicates from unsorted array
-- Adding Element in an array
-- Find all repeating elements in an array
-- Find all non-repeating elements in an array
-- Find all symmetric pairs in array
+- Adding Element in an array ✅
+- Find all repeating elements in an array ✅
+- Find all non-repeating elements in an array ✅
+- Find all symmetric pairs in array ✅
 - Maximum product subarray in an array
 - Replace each element of the array by its rank in the array
 - Sorting elements of an array by frequency
@@ -29,11 +29,11 @@
 
 # 2) Problems on Numbers
 - Check if a number is palindrome or not ✅
-- Find all Palindrome numbers in a given range
-- Check if a number is prime or not
-- Prime numbers in a given range
+- Find all Palindrome numbers in a given range ✅ 
+- Check if a number is prime or not ✅
+- Prime numbers in a given range ✅
 - Check if a number is armstrong number of not
-- Check if a number is perfect number
+- Check if a number is perfect number ✅
 - Even or Odd
 - Check weather a given number is positive or negative
 - Sum of first N natural numbers
@@ -79,11 +79,11 @@
 
 
 # 4) Problems on Sorting
-- Bubble Sort Algorithm
-- Selection Sort Algorithm
-- Insertion Sort Algorithm
-- Quick Sort Algorithm
-- Merge sort algorithm
+- Bubble Sort Algorithm ✅
+- Selection Sort Algorithm ✅
+- Insertion Sort Algorithm ✅
+- Quick Sort Algorithm ✅
+- Merge sort algorithm ✅
 
 
 
