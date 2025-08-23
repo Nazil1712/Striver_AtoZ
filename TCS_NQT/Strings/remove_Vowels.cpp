@@ -7,8 +7,7 @@ using namespace std;
     string s1 = "Geeks";
     //           01234
 
-    // Copy two characters of s1 (starting
-    // from index 3)
+    // Copy two characters of s1 (starting from index 3)
     string r = s1.substr(3, 2);
 
     string t2 = s1.substr(1);

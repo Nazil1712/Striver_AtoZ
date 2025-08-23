@@ -96,14 +96,14 @@
 - Remove characters from a string except alphabets ✅ 
 - Reverse a String ✅
 - Remove brackets from an algebraic expression ✅
-- Sum of the numbers in a String
-- Capitalize first and last character of each word
-- Calculate frequency of characters in a string
-- Find Non-repeating characters of a String
-- Check if two strings are anagram of each other
+- Sum of the numbers in a String ✅
+- Capitalize first and last character of each word ✅
+- Calculate frequency of characters in a string ✅
+- Find Non-repeating characters of a String ✅
+- Check if two strings are anagram of each other ✅
 - Count common sub-sequence in two strings
 - Check if two strings match where one string contains wildcard characters
-- Return maximum occurring character in the input string
+- Return maximum occurring character in the input string ✅
 - Remove all duplicates from the input string.
 - Print all the duplicates in the input string.
 - Remove characters from first string present in the second string

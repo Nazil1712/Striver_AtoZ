@@ -3,24 +3,41 @@ using namespace std;
 
 
 void sumOfNumbers(string s) {
-    int n = s.size(), ans = 0;
+    int sum = 0;
 
-    for(int i=0; i<n; i++) {
-        int ascii = (int) s[i];
+    /* 
+    
+        if input is abc12xyz34
 
-        if(ascii >= 48 && ascii <= 57) {
-            // ans += 
+        then 
+            ch - '0'
+    1 =>    49 - 48  = 1
+    2 =>    50 - 48  = 2
+    3 =>    51 - 48  = 3 
+    4 =>    52 - 48  = 4
+         ASCII - ASCII  = int       
+    
+         
+    */
+
+    
+    for(char ch : s) {
+        if(isdigit(ch)) {
+            sum += (ch - '0');
         }
     }
+
+    cout << "Sum of Numbers available in string is : " << sum << endl;
 }
 
 
 int main()
 {
 
-    string str = "1223";
+    string str = "abc12xyz34";
 
-    cout << atoi(str[0]) << endl;
+    sumOfNumbers(str);
+    
 
     return 0;
 }

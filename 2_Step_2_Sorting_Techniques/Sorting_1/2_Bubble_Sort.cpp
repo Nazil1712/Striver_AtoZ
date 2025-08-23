@@ -34,6 +34,7 @@ void takeArr(int arr[], int n){
 
 int main()
 {
+
         
     int n;
     cout << "Enter the value of n : ";

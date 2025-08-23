@@ -16,7 +16,7 @@ int main() {
     }
 
 
-    // Pre Storing
+    // Pre Storing...
     int maxLengthGiven = 13;
     int hash[maxLengthGiven] = {0};
     for(int i=0; i<n; i++) {
@@ -35,6 +35,7 @@ int main() {
         int number;
         cin >> number;
 
+        // Fetching...
         cout << number << " appears " << hash[number] << " times" << endl;
     }
 
