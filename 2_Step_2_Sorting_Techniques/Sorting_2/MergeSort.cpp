@@ -46,6 +46,37 @@ void merge(int arr[], int s, int e){
     delete[] arr2;
 }
 
+
+void striverMerge(int arr[], int low, int high) {
+    int mid = (low + high) / 2;
+    vector<int> temp;
+
+    int i = low;
+    int j = mid+1;
+
+    while(i <= mid && j <= high) {
+        if(arr[i] <= arr[j]) {
+            temp.push_back(arr[i++]);
+        }else{
+            temp.push_back(arr[j++]);
+        }
+    }
+
+    while(i <= mid) {
+        temp.push_back(arr[i++]);
+    }
+
+    while(j <= high) {
+        temp.push_back(arr[j++]);
+    }
+
+
+    for(int i=low; i<=high; i++) {
+        arr[i] = temp[i - low];
+    }
+}
+
+
 void mergeSort(int arr[], int s, int e){
     if(s >= e) return;
 
@@ -55,7 +86,7 @@ void mergeSort(int arr[], int s, int e){
 
     mergeSort(arr,mid+1,e);
 
-    merge(arr,s,e);
+    striverMerge(arr,s,e);
 }
 
 void printArr(int arr[], int n) {
