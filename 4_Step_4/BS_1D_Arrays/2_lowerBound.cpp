@@ -30,7 +30,6 @@ int main() {
     // cout << findLowerBound(arr,x) << endl;
 
     int ans = lower_bound(arr.begin(), arr.end(),x) - arr.begin();
-
     cout << ans << endl;
 
 
