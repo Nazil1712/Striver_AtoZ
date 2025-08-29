@@ -294,10 +294,10 @@ int main(){
     // pattern16(n);
     // pattern17(n);
     // pattern18(n);
-    // pattern19(n);
+    pattern19(n);
     // pattern20(n);
     // pattern21(n);
-    pattern22(n);
+    // pattern22(n);
 
     
     
