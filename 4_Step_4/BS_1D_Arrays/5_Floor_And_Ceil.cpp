@@ -42,8 +42,9 @@ vector<int> getFloorAndCeil(vector<int> arr, int x) {
 int main()
 {
 
-    vector<int> arr = {3, 4, 4, 7, 8, 10};
-    int x = 5;
+    // vector<int> arr = {3, 4, 4, 7, 8, 10};
+    vector<int> arr = {10,20,30,40,50};
+    int x = 25;
 
     vector<int> ans = getFloorAndCeil(arr,x);
 

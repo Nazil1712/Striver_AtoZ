@@ -24,13 +24,14 @@ int findLowerBound(vector<int> &arr, int x) {
 int main() {
 
 
-    vector<int> arr = {3,5,8,15,19};
-    int x = 9;
+    // vector<int> arr = {3,5,8,15,19};
+    vector<int> arr = {5,7,8,8,10};
+    int x = 7;
 
-    // cout << findLowerBound(arr,x) << endl;
+    cout << findLowerBound(arr,x) << endl;
 
-    int ans = lower_bound(arr.begin(), arr.end(),x) - arr.begin();
-    cout << ans << endl;
+    // int ans = lower_bound(arr.begin(), arr.end(),x) - arr.begin();
+    // cout << ans << endl;
 
 
     return 0;
