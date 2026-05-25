@@ -2,6 +2,10 @@
 using namespace std;
 
 
+// Floor (<=): Largest number in an Array which is lesser than or equal to given X
+// Ceil  (>=): Smallest number in an Arrat which is greater than or equal to given X
+
+
 vector<int> getFloorAndCeil(vector<int> arr, int x) {
 
     int low = 0, n = arr.size(), high = n-1;
