@@ -41,7 +41,7 @@ int isEqualToNthPow(int mid, int n, int m) {
         }
     }
 
-    return ans==m ? 1 : 0;
+    return ans == m ? 1 : 0;
 }
 
 int NthRoot(int n, int m) {
